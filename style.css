@@ -1,0 +1,174 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #e4700a;
+    color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.logo {
+    height: 75px;
+}
+
+.logo img {
+    max-height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 600px;
+    background-color: #222;
+    color: #fff;
+    overflow: hidden;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #e67e22;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Slider Styles */
+.slider-container {
+    overflow: hidden;
+    width: 93%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the slider */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider-item {
+    max-width: 320px; /* Minimum width for each slide */
+    flex-shrink: 0; /* Prevent slides from shrinking below min-width */
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.slider-item img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.slider-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.slider-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e67e22;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.slider-button i { /* Style the FontAwesome icons */
+    margin-right: 5px;
+}
+
+.slider-button:hover {
+    background-color: #cc6600; /* Darker orange on hover */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+#products.section {
+    margin-left: 20px;
+    padding-bottom: 15px ;
+}
+
+#about.section {
+    margin-right: 50px;
+    margin-left: 20px;
+    padding-top: 25px;
+
+}
+
+#contacts.section {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+#innovation.section {
+    margin-left: 20px;
+    padding-bottom: 5px;
+}

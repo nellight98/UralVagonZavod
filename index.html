@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>УралВагонЗавод</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#hero"><img src="img/logo.png" alt="УВЗ Логотип"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about" onclick="smoothScrollToTarget(event)">О компании</a></li>
+                <li><a href="#products" onclick="smoothScrollToTarget(event)">Продукция</a></li>
+                <li><a href="#innovation" onclick="smoothScrollToTarget(event)">Инновации</a></li>
+                <li><a href="#contacts" onclick="smoothScrollToTarget(event)">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h2>Лидер в тяжелом машиностроении</h2>
+                <p>НПК "УралВагонЗавод" – ведущий производитель военной техники и железнодорожного транспорта.</p>
+                <a href="#about" onclick="smoothScrollToTarget(event)" class="btn">Узнать больше</a>
+            </div>
+            <div class="hero-image"><img src="img/main.png" alt="Главное изображение"></div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>О компании</h2>
+            <p>УралВагонЗавод - это один из крупнейших научно-производственных комплексов в России и крупнейший в мире производитель основных боевых танков. Расположенный в Нижнем Тагиле завод был построен в 1931–1936 годах, в основном во время второй советской пятилетки. Он открылся 11 октября 1936 года и был назван в честь Феликса Дзержинского. Изначально он производил грузовые автомобили.</p>
+        </section>
+
+        <section id="products" class="section">
+            <h2>Продукция</h2>
+            <div class="slider-container">
+                <div class="slider"></div>
+                <div class="slider-buttons">
+                    <button class="slider-button prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-button next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="innovation" class="section">
+            <h2>Инновации</h2>
+            <p><b>Вагон модели 12-196-02.</b> Это четыреосный универсальный цельнометаллический полувагон с торцевыми стенами и люками в полу. Его главные преимущества: увеличенный объём кузова (88 м³), грузоподъёмность (75 тонн) и пробег до первого деповского ремонта (500 000 км).</p>
+            <p><b>Вагон-хоппер модели 20-5197.</b> Предназначен для перевозки по железным дорогам окатышей и агломерата с температурой до +400 °C и их механизированной разгрузки. Обшивка вагона подвижная, что позволяет компенсировать тепловые расширения.</p>
+            <p><b>Танк Т-14 на платформе «Армата».</b> Это единственный в мире танк третьего послевоенного поколения. В машине применены беспрецедентные конструкторские решения, например, башня Т-14 необитаема, а экипаж помещён в бронированную капсулу, отделённую от боекомплекта.</p>
+            <p><b>Новая универсальная контрейлерная платформа.</b> Её особенности: заниженный уровень пола для перевозки автомобилей до 19 метров, съёмные фитинговые упоры для контейнеров и возможность транспортировать гусеничную технику.</p>
+        </section>
+
+        <section id="contacts" class="section">
+            <h2>Контакты</h2>
+            <p>Электронная почта: web@uvz.ru</p>
+            <p>Номер телефона: +7 (3435) 344-209</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 УралВагонЗавод. Все права защищены.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
